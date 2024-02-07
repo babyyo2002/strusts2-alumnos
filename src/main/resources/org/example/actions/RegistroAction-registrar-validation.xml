@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="alumno.nombre">
+    <field-validator type="requiredstring">
+        <message key="form.error.message.fname"/>
+    </field-validator>
+    </field>
+    <field name="alumno.apellidos">
+        <field-validator type="requiredstring">
+            <message key="form.error.message.lname"/>
+        </field-validator>
+    </field>
+    <field name="alumno.dni">
+        <field-validator type="requiredstring">
+            <message key="form.error.message.id"/>
+        </field-validator>
+    </field>
+    <field name="alumno.direccion">
+        <field-validator type="requiredstring">
+            <message key="form.error.message.adress"/>
+        </field-validator>
+    </field>
+    <field name="alumno.email">
+        <field-validator type="requiredstring">
+            <message key="form.error.message.email"/>
+        </field-validator>
+    </field>
+    <field name="alumno.edad">
+        <field-validator type="int">
+            <param name="min">18</param>
+            <message key="form.error.message.age"/>
+        </field-validator>
+    </field>
+    <field name="alumno.idiomas">
+        <field-validator type="required">
+            <message key="form.error.message.languages"/>
+        </field-validator>
+    </field>
+    <field name="alumno.curso">
+        <field-validator type="requiredstring">
+            <message key="form.error.message.course"/>
+        </field-validator>
+    </field>
+    <field name="alumno.fechaInicio">
+        <field-validator type="required">
+            <message key="form.error.message.startdate"/>
+        </field-validator>
+    </field>
+    <field name="alumno.fechaFin">
+        <field-validator type="required">
+            <message key="form.error.message.enddate"/>
+        </field-validator>
+    </field>
+</validators>
