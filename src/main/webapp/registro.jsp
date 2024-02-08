@@ -51,9 +51,9 @@
         </tr>
         <tr>
             <td class="evenRow">
-                <s:fielderror fieldName = "alumno.edad" />
-                <s:text name="form.message.age" />
-                <s:textfield type="number" name="alumno.edad" min="0" />
+                <s:fielderror fieldName = "alumno.telefono" />
+                <s:text name="form.message.telefono" />
+                <s:textfield type="number" name="alumno.telefono" min="0" />
             </td>
         </tr>
         <tr>
@@ -79,9 +79,9 @@
         </tr>
         <tr>
             <td class="evenRow">
-                <s:fielderror fieldName = "alumno.fechaFin" />
-                <s:text name="form.message.enddate" />
-                <s:textfield type="date" name="alumno.fechaFin" />
+                <s:fielderror fieldName = "alumno.nota" />
+                <s:text name="form.message.nota" />
+                <s:textfield type="nota" name="alumno.nota" />
             </td>
         </tr>
         <tr>

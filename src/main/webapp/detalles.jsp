@@ -42,8 +42,8 @@
     </tr>
     <tr>
         <td class="evenRow">
-            <strong><s:text name="form.message.age" /></strong>
-            <s:property value="detalles.edad" />
+            <strong><s:text name="form.message.telefono" /></strong>
+            <s:property value="detalles.telefono" />
         </td>
     </tr>
     <tr>
@@ -68,8 +68,8 @@
     </tr>
     <tr>
         <td class="evenRow">
-            <strong><s:text name="form.message.enddate" /></strong>
-            <s:property value="detalles.fechaFin" />
+            <strong><s:text name="form.message.nota" /></strong>
+            <s:property value="detalles.nota" />
         </td>
     </tr>
     </table>

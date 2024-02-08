@@ -28,10 +28,9 @@
             <message key="form.error.message.email"/>
         </field-validator>
     </field>
-    <field name="alumno.edad">
+    <field name="alumno.telefono">
         <field-validator type="int">
-            <param name="min">18</param>
-            <message key="form.error.message.age"/>
+            <message key="form.error.message.telefono"/>
         </field-validator>
     </field>
     <field name="alumno.idiomas">
@@ -40,7 +39,7 @@
         </field-validator>
     </field>
     <field name="alumno.curso">
-        <field-validator type="requiredstring">
+        <field-validator type="required">
             <message key="form.error.message.course"/>
         </field-validator>
     </field>
@@ -49,9 +48,9 @@
             <message key="form.error.message.startdate"/>
         </field-validator>
     </field>
-    <field name="alumno.fechaFin">
-        <field-validator type="required">
-            <message key="form.error.message.enddate"/>
+    <field name="alumno.nota">
+        <field-validator type="int">
+            <message key="form.error.message.nota"/>
         </field-validator>
     </field>
 </validators>
